@@ -1,0 +1,38 @@
+#first-paragraph {
+    color:blue;
+    background-color: bisque;
+    font-style: italic;
+    text-align: right;
+}
+
+#second-paragraph {
+    color:rgb(138, 21, 21);
+    background-color: chartreuse;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+#bold-paragraph {
+    font-weight: bold;
+    background-color: aqua;
+    font-family: cursive;
+}
+
+#span1 {
+    columns: green;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+#span2 {
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+#span3 {
+    background-color: yellowgreen;
+}
+
+#spam4 {
+    text-align: right;
+}
