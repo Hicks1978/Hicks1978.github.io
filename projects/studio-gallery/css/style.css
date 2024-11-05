@@ -1,0 +1,15 @@
+.gray-dane {
+    border:10px solid beige ;
+    width: 100px;
+}
+
+.farm {
+    border: 10px solid rgb(99, 68, 68);
+    width: 100px;
+    border-radius: 20px;
+}
+
+.pit {
+    border: 20px solid rgb(148, 112, 112);
+    width: 100px ;
+}
