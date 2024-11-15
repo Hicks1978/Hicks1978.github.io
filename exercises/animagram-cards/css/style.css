@@ -24,11 +24,3 @@ body {
     margin-right: auto;
 }
 
-.card {
-    border: 2px solid #FFE4DA;
-    width: 350px;
-    padding: 10px;
-    margin: 24px;
-    text-align: center;
-    box-shadow: -24 4px 12px black;
-    background: linear-gradient(
