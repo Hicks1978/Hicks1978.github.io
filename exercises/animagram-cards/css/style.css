@@ -1,0 +1,34 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+
+box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#centered-column {
+    width: 90vw;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    border: 2px solid #FFE4DA;
+    width: 350px;
+    padding: 10px;
+    margin: 24px;
+    text-align: center;
+    box-shadow: -24 4px 12px black;
+    background: linear-gradient(
