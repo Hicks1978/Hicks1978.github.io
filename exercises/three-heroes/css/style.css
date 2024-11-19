@@ -18,11 +18,9 @@ body {
     height: 100vh;
     background-size: cover;
     background-position: center center;
-    display: flex;
-    justify-content: flex-start; 
-    align-items: center center;
-    padding-right: 60px;
 }
+
+
 
 
 
