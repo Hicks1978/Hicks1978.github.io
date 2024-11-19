@@ -7,6 +7,44 @@ body {
     font-family: sans-serif;
 }
 
+#hero-2 {
+    background-image: url("../images/depressed.webp");
+    height: 100vh;
+}
+
+
 #hero-1 {
-    
+    background-image: url("../images/lizard.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center center;
+    padding-right: 60px;
+}
+
+
+
+
+#hero-3 {
+    background-image: url("../images/day\ dream.jpg");
+    height: 100vh;
+}
+
+
+
+
+
+#hero-1 {
+    background-image: url("../images/flower.jpg");
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start; /* i.e. left alignment for rows */
+    align-items: center;    
+}
+
+#hero-1 h1 {
+    font-size: 100px; 
+    padding-left: 100px;
 }
