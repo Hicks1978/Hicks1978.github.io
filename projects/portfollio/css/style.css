@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tangerine:wght@400;700&display=swap');
+
 * {
     box-sizing: border-box
 }
@@ -7,14 +9,16 @@ body {
     font-family: sans-serif;
 }
 
-
-#layout {
-    max-width: 800px;
-    margin: 48px auto;
-    text-align: center;
+#hero-1 {
+    background-image: url("../images/Bruno\ Animation.png");
     height: 100vh;
     background-size: cover;
     background-position: center center;
+}
+
+#hero-1 h1 {
+    font-size: 40px; 
+    padding-left: 100px;
 }
 
 #layout {
@@ -26,7 +30,6 @@ body {
 .basic-grid-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 24px;
     padding: 24px;
     border: 10px solid #333333;
 }
