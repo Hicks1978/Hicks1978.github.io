@@ -41,7 +41,7 @@ body {
 .basic-grid-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 24px;
+    padding: 1px;
     border: 10px solid #333333;
 }
 
