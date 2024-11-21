@@ -9,11 +9,22 @@ body {
     font-family: sans-serif;
 }
 
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
 #hero-1 {
     background-image: url("../images/Bruno\ Animation.png");
     height: 100vh;
     background-size: cover;
     background-position: center center;
+
+}
+
+.basic-grid-gallery img {
+        width: 100%;
 }
 
 #hero-1 h1 {
@@ -36,4 +47,35 @@ body {
 
 .basic-grid-gallery img {
     width: 100%;
+}
+
+#centered-column {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+}
+
+#centered-column {
+    width: 90vw;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    border: 2px solid #FFE4DA;
+    width: 350px;
+    padding: 10px;
+    margin: 24px;
+    text-align: center;
+    box-shadow: -24 4px 12px black;
+    background: linear-gradient(
+        red,
+        purple,
+        green
+    );
 }
