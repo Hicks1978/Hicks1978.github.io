@@ -18,3 +18,8 @@ body {
     padding: 20px;
 }
 
+#navbar-bottom {
+    background: linear-gradient(to bottom, yellowgreen, olive);
+    display: flex;
+    justify-content: space-between;
+}
