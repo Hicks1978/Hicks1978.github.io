@@ -7,30 +7,29 @@ body {
     font-family: sans-serif;
 }
 
-#hero-2 {
-    background: linear-gradient(to bottom, green, #3e6d3e);
+#navbar {
+    background: linear-gradient(to bottom, #109cb8, #0e5b96);
     display: flex;
-    align-items: center center;
+    align-items: center;
 }
 
-#hero-2 {
+#navbar a {
+    display: inline-block;
     text-decoration: none;
     color: white;
     padding: 24px;
 }
 
 #hero-2 {
-    margin-right: auto;
+    background: linear-gradient(to bottom, #109cb8, #0e5b96);
+    display: flex;
+    align-items: center;
 }
 
-#hero-2 .cta-buttom {
-    background-color: white;
-    color: green;
-    border-radius: 36px;
-    padding: 16px 24px;
-    font-size: 20px;
-    font-weight: bold;
-    min-width: 150px;
-    text-align: center;
-    margin-right: 24px;
+#hero-2 a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
 }
+
