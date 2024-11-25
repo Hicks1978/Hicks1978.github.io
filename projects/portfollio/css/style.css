@@ -15,6 +15,16 @@ body {
     text-align: center;
 }
 
+.vertical-masonry-gallery {
+    columns: 3 auto;
+    column-gap: 24px;
+}
+
+.vertical-masonry-gallery img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
 #hero-1 {
     background-image: url("../images/Bruno\ Animation.png");
     height: 100vh;
@@ -24,11 +34,13 @@ body {
 }
 
 .basic-grid-gallery img {
-        width: 100%;
+        width: 90%;
 }
 
 #hero-1 h1 {
-    font-size: 40px; 
+    font-size: 150px;
+    text-align: center;
+    color: bisque; 
     padding-left: 100px;
 }
 
@@ -47,6 +59,7 @@ body {
 
 .basic-grid-gallery img {
     width: 100%;
+    padding: 6px;
 }
 
 #centered-column {
@@ -74,8 +87,8 @@ body {
     text-align: center;
     box-shadow: -24 4px 12px black;
     background: linear-gradient(
-        red,
-        purple,
-        green
+        rgb(219, 177, 177),
+        rgb(229, 224, 229),
+        rgb(156, 171, 195)
     );
 }
