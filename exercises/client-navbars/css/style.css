@@ -11,6 +11,7 @@ body {
     background: linear-gradient(to bottom, #109cb8, #0e5b96);
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 #navbar a {
