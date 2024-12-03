@@ -76,3 +76,23 @@ img {
     margin: 0px auto;
 }
 
+#hero-1 {
+    background-image: url("../images/puppy.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+#hero-1 h1 {
+    font-size: 120px; 
+    padding-bottom: 100px;
+}
+
+@media screen and (max-width: 600px)
+    .image-container {
+        height: 300px;
+}
+
