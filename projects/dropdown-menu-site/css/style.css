@@ -96,6 +96,18 @@ img {
 @media screen and (max-width: 600px) {
     body {
         background-color: none;
+        .content-container h1 {
+            font-size: 32px;
+        }
+    
+        .intro {
+            gap: 24px;
+        }
+    
+        .image-container {
+            height: 300px;
+        }
+    
     }
 }    
 
