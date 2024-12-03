@@ -63,3 +63,16 @@ body {
 #navbar .dropdown-menu a:hover {
     background: rgb(89, 205, 183);
 }
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#navbar-column,
+.center-column {
+    width: 500px;
+    margin: 0px auto;
+}
+
