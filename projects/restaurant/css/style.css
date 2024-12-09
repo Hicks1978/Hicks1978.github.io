@@ -81,13 +81,13 @@ body {
 }
 
 #hero-1 h2 {
-        color: rgb(13, 18, 2);
-        font-size: 80px;
+        color: rgb(192, 51, 27);
+        font-size: 60px;
 }
 
 #hero-1 h3 {
-    color: rgb(15, 20, 4);
-    font-size: 80px;
+    color: rgb(175, 6, 218);
+    font-size: 40px;
     
 }
 
@@ -117,6 +117,8 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+
 @media screen and (max-width: 480px) {
     
 }
