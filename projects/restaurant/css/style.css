@@ -7,15 +7,6 @@ body {
     font-family: sans-serif;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0px;
-    font-family: sans-serif; 
-}
-
 body {
     background-color: #dfeee7;
     color: #c15656;
@@ -90,9 +81,42 @@ body {
 }
 
 #hero-1 h2 {
-        color: rgb(242, 234, 234);
+        color: rgb(13, 18, 2);
+        font-size: 80px;
 }
 
 #hero-1 h3 {
-    color: rgb(76, 65, 4);
+    color: rgb(15, 20, 4);
+    font-size: 80px;
+    
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer {
+    background: linear-gradient(
+    to bottom, 
+    rgb(165, 144, 5), 
+    #5b500c
+    );
+    color: white;
+    padding: 12px;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-columns-navbar div {
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 480px) {
+    
 }
