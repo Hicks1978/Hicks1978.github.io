@@ -75,9 +75,14 @@ body {
     margin-bottom: 100px; 
 }
 
-#hero-1 h1 {
+#hero-1 h3 {
     font-size: 120px; 
     padding-left: 100px;    
+}
+
+#hero-2 h3 {
+    font-size: 24px;
+    margin: 0px;
 }
 
 #hero-1 h2 {
